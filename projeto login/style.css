@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    font-family: 'Montserrat', sans-serif; /* Fonte principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+        background-image: url("mark-chill.gif"); /* Substitua "sua-imagem.jpg" pelo caminho da sua imagem */
+        background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+        background-position: center; /* Centraliza a imagem */
+        background-attachment: fixed; /* Faz a imagem ficar fixa ao rolar a página */
+    
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.5); /* Cor branca com 50% de transparência */
+    border-radius: 10px; /* Adiciona cantos arredondados à caixa */
+    padding: 30px; /* Adiciona espaço interno à caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave à caixa */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box span.icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 18px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px 10px 15px 50px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+    color: #333;
+    font-size: 16px;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: 10px;
+    left: 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remember-forgot label {
+    color: #333;
+    font-size: 14px;
+}
+
+.remember-forgot a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
